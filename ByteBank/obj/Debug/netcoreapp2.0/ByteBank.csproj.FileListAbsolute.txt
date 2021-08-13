@@ -1,0 +1,10 @@
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\ByteBank\bin\Debug\netcoreapp2.0\ByteBank.deps.json
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\ByteBank\bin\Debug\netcoreapp2.0\ByteBank.runtimeconfig.json
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\ByteBank\bin\Debug\netcoreapp2.0\ByteBank.runtimeconfig.dev.json
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\ByteBank\bin\Debug\netcoreapp2.0\ByteBank.dll
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\ByteBank\bin\Debug\netcoreapp2.0\ByteBank.pdb
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\ByteBank\obj\Debug\netcoreapp2.0\ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\ByteBank\obj\Debug\netcoreapp2.0\ByteBank.AssemblyInfoInputs.cache
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\ByteBank\obj\Debug\netcoreapp2.0\ByteBank.AssemblyInfo.cs
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\ByteBank\obj\Debug\netcoreapp2.0\ByteBank.dll
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\ByteBank\obj\Debug\netcoreapp2.0\ByteBank.pdb
