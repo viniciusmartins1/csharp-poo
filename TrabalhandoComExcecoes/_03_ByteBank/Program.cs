@@ -8,13 +8,24 @@ namespace _03_ByteBank
         {
             try
             {
-                Metodo();
+                ContaCorrente conta = new ContaCorrente(667, 98887);
+            }
+            catch(ArgumentException ex)
+            {
+                if(ex.ParamName == "numero")
+                {
+                    
+                }
+                Console.WriteLine("Argumento com problema " + ex.ParamName);
+                Console.WriteLine("Ocorreu uma exceção do tipo ArgumentException");
+                Console.WriteLine(ex.Message);
             }
             catch(Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                Console.WriteLine(ex.StackTrace);
             }
+
+            //Metodo();
         }
 
         static void Metodo()
