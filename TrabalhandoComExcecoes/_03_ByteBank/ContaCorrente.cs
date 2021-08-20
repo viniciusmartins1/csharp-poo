@@ -3,7 +3,7 @@ namespace _03_ByteBank
 {
    public class ContaCorrente
     {
-
+        public static double TaxaOperacao { get; private set; }
         public Cliente Titular{ get; set; }
 
         public static int TotalDeContasCriadas{get; private set;}
@@ -36,15 +36,14 @@ namespace _03_ByteBank
                 _saldo = value;
             }
         }
-
-        //Métodos
-
         public ContaCorrente(int agencia, int numero)
         {
             Agencia = agencia;
             Numero = numero;
 
             TotalDeContasCriadas++;
+
+            TaxaOperacao = 30 / TotalDeContasCriadas;
         }
         public bool Sacar(double valor)
         {

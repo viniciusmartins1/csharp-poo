@@ -6,29 +6,43 @@ namespace _03_ByteBank
     {
         static void Main(string[] args)
         {
-            ContaCorrente conta = new ContaCorrente(867, 838973979);
-
-            //Console.WriteLine(conta.Agencia);
-            //Console.WriteLine(conta.Numero);
-
-
-            string nome = "vinicius";
-
-            for(int i = nome.Length - 1; i >= 0; i--)
+            try
             {
-                //Console.Write(nome[i]);
+                Metodo();
             }
-
-            int num1=0, num2=1, aux;
-
-            for (int i = 0; i​​​​​​​ < 10; i++)
+            catch (DivideByZeroException execao)
             {
-                aux=num1;
-                num1 = num2;
-                num2 = num1 + aux;
-                Console.WriteLine("{0}", num2);
+                Console.WriteLine(execao.Message);
+                //Console.WriteLine(execao.StackTrace);
 
+                Console.WriteLine("Exceção tratada.");
             }
+        }
+
+        static void Metodo()
+        {
+            try
+            {
+                TestaDivisao(0);
+            }
+            catch(NullReferenceException excecao)
+            {
+                Console.WriteLine(excecao.Message);
+            }
+            
+        }
+
+        static void TestaDivisao(int divisor)
+        {
+            Dividir(10, divisor);
+        }
+        public static int Dividir(int numero, int divisor)
+        {
+            ContaCorrente conta = null;
+
+            Console.WriteLine(conta.Saldo);
+            return numero / divisor;
         }
     }
 }
+

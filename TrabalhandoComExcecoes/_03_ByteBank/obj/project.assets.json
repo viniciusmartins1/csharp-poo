@@ -671,11 +671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vmartins\\Documents\\Meus Projetos\\teste_1\\Alura-BiteBank\\_03_ByteBank\\_03_ByteBank.csproj",
+      "projectUniqueName": "C:\\Users\\vmartins\\Documents\\Meus Projetos\\csharp-poo\\TrabalhandoComExcecoes\\_03_ByteBank\\_03_ByteBank.csproj",
       "projectName": "_03_ByteBank",
-      "projectPath": "C:\\Users\\vmartins\\Documents\\Meus Projetos\\teste_1\\Alura-BiteBank\\_03_ByteBank\\_03_ByteBank.csproj",
+      "projectPath": "C:\\Users\\vmartins\\Documents\\Meus Projetos\\csharp-poo\\TrabalhandoComExcecoes\\_03_ByteBank\\_03_ByteBank.csproj",
       "packagesPath": "C:\\Users\\vmartins\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vmartins\\Documents\\Meus Projetos\\teste_1\\Alura-BiteBank\\_03_ByteBank\\obj\\",
+      "outputPath": "C:\\Users\\vmartins\\Documents\\Meus Projetos\\csharp-poo\\TrabalhandoComExcecoes\\_03_ByteBank\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

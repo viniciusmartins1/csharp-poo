@@ -8,3 +8,13 @@ C:\Users\vmartins\Documents\Meus Projetos\teste_1\Alura-BiteBank\_03_ByteBank\ob
 C:\Users\vmartins\Documents\Meus Projetos\teste_1\Alura-BiteBank\_03_ByteBank\obj\Debug\netcoreapp2.0\_03_ByteBank.AssemblyInfo.cs
 C:\Users\vmartins\Documents\Meus Projetos\teste_1\Alura-BiteBank\_03_ByteBank\obj\Debug\netcoreapp2.0\_03_ByteBank.dll
 C:\Users\vmartins\Documents\Meus Projetos\teste_1\Alura-BiteBank\_03_ByteBank\obj\Debug\netcoreapp2.0\_03_ByteBank.pdb
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\TrabalhandoComExcecoes\_03_ByteBank\bin\Debug\netcoreapp2.0\_03_ByteBank.deps.json
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\TrabalhandoComExcecoes\_03_ByteBank\bin\Debug\netcoreapp2.0\_03_ByteBank.runtimeconfig.json
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\TrabalhandoComExcecoes\_03_ByteBank\bin\Debug\netcoreapp2.0\_03_ByteBank.runtimeconfig.dev.json
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\TrabalhandoComExcecoes\_03_ByteBank\bin\Debug\netcoreapp2.0\_03_ByteBank.dll
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\TrabalhandoComExcecoes\_03_ByteBank\bin\Debug\netcoreapp2.0\_03_ByteBank.pdb
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\TrabalhandoComExcecoes\_03_ByteBank\obj\Debug\netcoreapp2.0\_03_ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\TrabalhandoComExcecoes\_03_ByteBank\obj\Debug\netcoreapp2.0\_03_ByteBank.AssemblyInfoInputs.cache
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\TrabalhandoComExcecoes\_03_ByteBank\obj\Debug\netcoreapp2.0\_03_ByteBank.AssemblyInfo.cs
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\TrabalhandoComExcecoes\_03_ByteBank\obj\Debug\netcoreapp2.0\_03_ByteBank.dll
+C:\Users\vmartins\Documents\Meus Projetos\csharp-poo\TrabalhandoComExcecoes\_03_ByteBank\obj\Debug\netcoreapp2.0\_03_ByteBank.pdb
