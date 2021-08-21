@@ -31,6 +31,10 @@ namespace _03_ByteBank
             }
             catch(SaldoInsuficienteException ex)
             {
+
+                Console.WriteLine(ex.Saldo);
+                Console.WriteLine(ex.ValorSaque);
+                
                 Console.WriteLine(ex.Message);
                 Console.WriteLine("Excecao do tipo SaldoInsuficienteException");
             }
