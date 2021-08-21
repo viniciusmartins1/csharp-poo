@@ -9,6 +9,15 @@ namespace _03_ByteBank
             try
             {
                 ContaCorrente conta = new ContaCorrente(667, 98887);
+                ContaCorrente conta2 = new ContaCorrente(232, 32353);
+
+                conta2.Transferir(-10, conta);
+                conta.Depositar(50);
+
+                Console.WriteLine(conta.Saldo);
+
+                conta.Sacar(-500);
+
             }
             catch(ArgumentException ex)
             {
@@ -16,9 +25,14 @@ namespace _03_ByteBank
                 {
                     
                 }
-                Console.WriteLine("Argumento com problema " + ex.ParamName);
+                Console.WriteLine("Argumento com problema: " + ex.ParamName);
                 Console.WriteLine("Ocorreu uma exceção do tipo ArgumentException");
                 Console.WriteLine(ex.Message);
+            }
+            catch(SaldoInsuficienteException ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Excecao do tipo SaldoInsuficienteException");
             }
             catch(Exception ex)
             {
@@ -34,7 +48,7 @@ namespace _03_ByteBank
             {
                 TestaDivisao(0);
             }
-            catch(DivideByZeroException ex)
+            catch(DivideByZeroException)
             {
                 Console.WriteLine("Não é possível divisao por 0!");
             }
