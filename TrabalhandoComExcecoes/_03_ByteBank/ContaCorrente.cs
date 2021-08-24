@@ -56,6 +56,7 @@ namespace _03_ByteBank
 
             if(_saldo < valor)
             {
+                ContadorSaqueNaoPermitido++;
                 throw new SaldoInsuficienteException(_saldo, valor);
             } 
            
@@ -73,15 +74,15 @@ namespace _03_ByteBank
             {
                 throw new ArgumentException("Valor inválido para a tranferência.", nameof(valor));
             }
-
+            
             try
             {
                 Sacar(valor);
             }
-            catch(SaldoInsuficienteException  ex)
+            catch(SaldoInsuficienteException)
             {
-                ContadorSaqueNaoPermitido++;
-                throw ex;
+                ContadorTranferenciaNaoPermitida++;
+                throw;
             }
             
             contaDestino.Depositar(valor);
