@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace _03_ByteBank
 {
@@ -6,7 +7,45 @@ namespace _03_ByteBank
     {
         static void Main(string[] args)
         {
+            CarregarContas();
+        }
+
+        private static void CarregarContas()
+        {
+            LeitorDeArquivo leitor = null;
+
             try
+            {
+                leitor = new LeitorDeArquivo("conta.txt");
+
+
+                leitor.LerProximaLinha();
+                leitor.LerProximaLinha();
+                leitor.LerProximaLinha();
+                leitor.LerProximaLinha();
+                leitor.LerProximaLinha();
+
+            }
+            catch(IOException)
+            {
+                
+                Console.WriteLine("Exceção do tipo IOException capturada e tratada!");
+
+            }
+            finally
+            {
+                if(leitor != null)
+                {
+                    leitor.Fechar();
+                }
+                
+            }
+            
+        }
+
+        private static void TestaInnerException()
+        {
+             try
             {
                 ContaCorrente conta1 = new ContaCorrente(2341, 3412341);
                 ContaCorrente conta2 = new ContaCorrente(3432, 342422);
